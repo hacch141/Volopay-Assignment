@@ -20,7 +20,7 @@ const App = () => {
           <div><RightHeader /></div>
         </nav>
         <Routes>
-          <Route path="/" element={<All />} />
+          <Route path="/Volopay-Assignment" element={<All />} />
           <Route path="your" element={<Your />} />
           <Route path="all" element={<All />} />
           <Route path="blocked" element={<Blocked />} />

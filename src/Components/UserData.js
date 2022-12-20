@@ -18,7 +18,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 2,
         userName : "Rajesh",
@@ -36,7 +36,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 3,
         userName : "Vishal",
@@ -51,10 +51,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 4,
         userName : "Mayank",
@@ -72,7 +72,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 5,
         userName : "Rojith",
@@ -90,7 +90,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 6,
         userName : "Sanjay",
@@ -126,7 +126,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 8,
         userName : "Srushti",
@@ -144,7 +144,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 9,
         userName : "Bhargavi",
@@ -162,7 +162,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 10,
         userName : "Nihar",
@@ -177,10 +177,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 11,
         userName : "Smruti",
@@ -198,7 +198,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 12,
         userName : "Rajat",
@@ -234,7 +234,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 14,
         userName : "Darpan",
@@ -252,7 +252,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 15,
         userName : "Kamlesh",
@@ -270,7 +270,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 16,
         userName : "Deepak",
@@ -288,7 +288,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 17,
         userName : "Rahul",
@@ -303,10 +303,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 18,
         userName : "Shrey",
@@ -342,7 +342,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 20,
         userName : "Tinku",
@@ -360,7 +360,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 1,
         userName : "Harsh",
@@ -378,7 +378,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 2,
         userName : "Rajesh",
@@ -396,7 +396,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 3,
         userName : "Vishal",
@@ -414,7 +414,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 4,
         userName : "Mayank",
@@ -429,7 +429,7 @@ export const UserData = [
         card_type: "SUBSCRIPTION",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
         name: 'Mixmax',
@@ -450,7 +450,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 6,
         userName : "Sanjay",
@@ -468,7 +468,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 7,
         userName : "Rana",
@@ -486,7 +486,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 8,
         userName : "Srushti",
@@ -504,7 +504,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 9,
         userName : "Bhargavi",
@@ -522,7 +522,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 10,
         userName : "Nihar",
@@ -558,7 +558,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 12,
         userName : "Rajat",
@@ -573,10 +573,10 @@ export const UserData = [
         card_type: "SUBSCRIPTION",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 13,
         userName : "jay",
@@ -594,7 +594,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 14,
         userName : "Darpan",
@@ -612,7 +612,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Software Subscription',
         owner_id: 15,
         userName : "Kamlesh",
@@ -630,7 +630,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Software Subscription',
         owner_id: 16,
         userName : "Deepak",
@@ -666,7 +666,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Software Subscription',
         owner_id: 18,
         userName : "Shrey",
@@ -684,7 +684,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Software Subscription',
         owner_id: 19,
         userName : "Khvahish",
@@ -702,7 +702,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Software Subscription',
         owner_id: 20,
         userName : "Tinku",
@@ -720,7 +720,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Miscelianeous',
         owner_id: 1,
         userName : "Harsh",
@@ -738,7 +738,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Miscelianeous',
         owner_id: 2,
         userName : "Rajesh",
@@ -774,7 +774,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Miscelianeous',
         owner_id: 4,
         userName : "Mayank",
@@ -792,7 +792,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Miscelianeous',
         owner_id: 5,
         userName : "Rojith",
@@ -807,10 +807,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Miscelianeous',
         owner_id: 6,
         userName : "Sanjay",
@@ -828,7 +828,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Miscelianeous',
         owner_id: 7,
         userName : "Rana",
@@ -846,7 +846,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Miscelianeous',
         owner_id: 8,
         userName : "Srushti",
@@ -882,7 +882,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Miscelianeous',
         owner_id: 10,
         userName : "Nihar",
@@ -900,7 +900,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Miscelianeous',
         owner_id: 11,
         userName : "Smruti",
@@ -918,7 +918,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Miscelianeous',
         owner_id: 12,
         userName : "Rajat",
@@ -936,7 +936,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Miscelianeous',
         owner_id: 13,
         userName : "jay",
@@ -951,10 +951,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Miscelianeous',
         owner_id: 14,
         userName : "Darpan",
@@ -990,7 +990,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Quickbooks',
         budget_name: 'Miscelianeous',
         owner_id: 16,
         userName : "Deepak",
@@ -1008,7 +1008,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motion',
         budget_name: 'Miscelianeous',
         owner_id: 17,
         userName : "Rahul",
@@ -1026,7 +1026,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Pandadoc',
         budget_name: 'Miscelianeous',
         owner_id: 18,
         userName : "Shrey",
@@ -1041,10 +1041,10 @@ export const UserData = [
         card_type: "BURNER",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
-        name: 'Mixmax',
+        name: 'Xero',
         budget_name: 'Miscelianeous',
         owner_id: 19,
         userName : "Khvahish",
@@ -1062,7 +1062,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Mookambika',
         budget_name: 'Miscelianeous',
         owner_id: 20,
         userName : "Tinku",
@@ -1239,7 +1239,7 @@ export const UserData = [
         card_type: "SUBSCRIPTION",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
         name: 'Mixmax',
@@ -1257,7 +1257,7 @@ export const UserData = [
         card_type: "SUBSCRIPTION",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blocked',
     },
     {
         name: 'Mixmax',
@@ -1275,7 +1275,7 @@ export const UserData = [
         card_type: "SUBSCRIPTION",
         expiry: "9 feb",
         limit: 100,
-        status: 'active',
+        status: 'blockeds',
     },
     {
         name: 'Mixmax',
@@ -1440,7 +1440,7 @@ export const UserData = [
         status: 'active',
     },
     {
-        name: 'Mixmax',
+        name: 'Motio',
         budget_name: 'Software Subscription',
         owner_id: 1,
         userName : "Harsh",

@@ -8,11 +8,11 @@
 }
 
 html {
-  
+  scroll-behavior: smooth;
 }
 
 body {
-  
+  scroll-behavior: smooth;
 }
 
 .navbar {

@@ -6,6 +6,7 @@ const CardsList = ({dataSource}) => {
     return (
         <div className='card-list'>
         {dataSource.map((user, index)=> {
+            console.log(user);
             return (
                 <Card 
                     key = {index}
