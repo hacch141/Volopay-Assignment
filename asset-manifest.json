@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Volopay-Assignment/static/css/main.59cfeb22.css",
-    "main.js": "/Volopay-Assignment/static/js/main.73dd8b41.js",
+    "main.css": "/Volopay-Assignment/static/css/main.203c6713.css",
+    "main.js": "/Volopay-Assignment/static/js/main.cab18d6d.js",
     "static/js/787.3485b12d.chunk.js": "/Volopay-Assignment/static/js/787.3485b12d.chunk.js",
     "index.html": "/Volopay-Assignment/index.html",
-    "main.59cfeb22.css.map": "/Volopay-Assignment/static/css/main.59cfeb22.css.map",
-    "main.73dd8b41.js.map": "/Volopay-Assignment/static/js/main.73dd8b41.js.map",
+    "main.203c6713.css.map": "/Volopay-Assignment/static/css/main.203c6713.css.map",
+    "main.cab18d6d.js.map": "/Volopay-Assignment/static/js/main.cab18d6d.js.map",
     "787.3485b12d.chunk.js.map": "/Volopay-Assignment/static/js/787.3485b12d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59cfeb22.css",
-    "static/js/main.73dd8b41.js"
+    "static/css/main.203c6713.css",
+    "static/js/main.cab18d6d.js"
   ]
 }
