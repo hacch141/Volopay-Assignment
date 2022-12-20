@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.left-part {
+    display: flex;  
+}
+
+.left-subright-part {
+    margin: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    color: rgb(64, 116, 229);
+    background-color: rgb(243, 238, 238);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.left-subright-part svg {
+    margin: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.left-subright-part span {
+    margin: auto;
+    padding: 3px;
+}
+
+.left-part h1 {
+    margin: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.right-part {
+    margin: 1.5rem;
+}
+
+.virtual-card-btn {
+    height: 37px;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    border-radius:6px;
+    border-color: white;
+    background-color: white;
+    border: 0;
+    font-weight: 200;
+    transition: all 0.3s ease;
+    box-shadow: 0px 3px 20px rgba(121, 119, 119, 0.25);
+}
+
+.virtual-card-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.virtual-card-btn svg{
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.virtual-card-btn h4{
+    margin-right: 4px;
+}

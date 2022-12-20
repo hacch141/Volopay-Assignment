@@ -1,0 +1,18 @@
+.right-header svg {
+    height: 20px;
+    width: 20px;
+    color: rgb(91, 88, 88);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.right-header {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+}
+
+.right-header svg:hover {
+    transform: scale(1.1);
+}
