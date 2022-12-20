@@ -1,0 +1,45 @@
+.filter {
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+.btn-div {
+    right: 20px;
+    top: 30px;
+    position: absolute;
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-div svg {
+    color: rgb(55, 53, 53);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-div svg:hover {
+    transform: scale(1.2);
+}
+
+.btn-div button {
+    width: 75px;
+    height: 33px;
+    border-radius: 3px;
+    background-color: rgb(244, 241, 241);
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: gray;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-div button:hover {
+    transform: scale(1.1);
+}

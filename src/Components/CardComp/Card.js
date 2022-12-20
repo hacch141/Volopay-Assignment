@@ -1,6 +1,6 @@
 import React from 'react';
-import burner from '../Assets/fire.png'
-import subscription from '../Assets/arrow.png'
+import burner from '../../Assets/fire.png'
+import subscription from '../../Assets/arrow.png'
 import './Card.css'
 import styled from "styled-components";
 

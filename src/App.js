@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, NavLink, Routes, Route } from "react-router-dom";
 import './App.css'
-import Header from './Components/Header';
-import Your from './Components/Your';
-import All from './Components/All';
-import Blocked from './Components/Blocked';
-import RightHeader from "./Components/RightHeader";
+import Header from './Components/HeaderComp/Header';
+import Your from './Components/PagesComp/Your';
+import All from './Components/PagesComp/All';
+import Blocked from './Components/PagesComp/Blocked';
+import RightHeader from "./Components/HeaderComp/RightHeader";
 
 const App = () => {
   return (

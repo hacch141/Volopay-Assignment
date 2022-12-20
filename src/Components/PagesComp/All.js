@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
-import CardsList from './CardsList';
-import {UserData} from './UserData';
+import CardsList from '../CardComp/CardsList';
+import {UserData} from '../Data/UserData';
+import Filter from '../PopupComp/Filter';
 
 const All = () => {
     const [dataSource, setdataSource] = useState([]);
@@ -28,7 +29,10 @@ const All = () => {
     },[])
 
     return (
-        <CardsList dataSource={dataSource}/>
+        <>
+            <Filter />
+            <CardsList dataSource={dataSource}/>
+        </>
     );
 }
 

@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
-import CardsList from './CardsList';
-import {UserData} from './UserData';
+import CardsList from '../CardComp/CardsList';
+import {UserData} from '../Data/UserData';
 
 const Blocked = () => {
     const [dataSource, setdataSource] = useState([]);
