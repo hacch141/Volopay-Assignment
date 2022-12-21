@@ -4,7 +4,7 @@
 }
 
 .btn-div {
-    right: 20px;
+    right: 10%;
     top: 30px;
     position: absolute;
     width: 7%;
@@ -42,4 +42,19 @@
 
 .btn-div button:hover {
     transform: scale(1.1);
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search svg {
+    margin-top: 15px;
 }

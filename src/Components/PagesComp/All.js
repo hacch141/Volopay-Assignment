@@ -28,9 +28,19 @@ const All = () => {
         return () => window.removeEventListener("scroll",handleScroll)
     },[])
 
+    
+    const getsearchData = (data) => {
+        console.log(data)
+        if(data!=='') {
+            const filteredData = UserData.filter(user => 
+                user.name.toLowerCase().includes(data.toLowerCase()))
+            setdataSource(filteredData)
+        }
+    }
+
     return (
         <>
-            <Filter />
+            <Filter searchData={getsearchData}/>
             <CardsList dataSource={dataSource}/>
         </>
     );

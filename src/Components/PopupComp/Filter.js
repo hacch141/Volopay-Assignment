@@ -4,8 +4,9 @@ import {BiFilter} from 'react-icons/bi';
 import './Filter.css'
 import PopupFilter from './PopupFilter';
 
-const Filter = () => {
+const Filter = (props) => {
     const [popup, setPopup] = useState('close')
+    const [searchData, setsearchData] = useState('');
 
     const open = () => {
         switch(popup) {
@@ -19,10 +20,28 @@ const Filter = () => {
                 setPopup('close')
         }
     }
+
+    const handleSearch = (e) => {
+        setsearchData(e.target.value)
+        finalcall()
+    }
+
+    const finalcall = () => {
+        props.searchData(searchData)
+    }
+
     return (
         <div className='filter'>
             <div className='btn-div'>
-                <FiSearch />
+                <div className='search'>
+                    <FiSearch />
+                    <input 
+                        placeholder='Search' 
+                        type="text" 
+                        value={searchData} 
+                        onChange={(e)=>handleSearch(e)} 
+                    />
+                </div>
                 <button onClick={() => open()}>
                     <BiFilter /> Filter
                 </button>
