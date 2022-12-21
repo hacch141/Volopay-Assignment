@@ -1,14 +1,25 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import styled from 'styled-components';
 import FilterForm from './FilterForm';
 
 const PopupFilter = (props) => {
-    console.log(props);
+
+    const [details, setDetails] = useState({
+        subscription: "",
+        burner: "",
+        cardHolder: ""
+    })
+
+    useEffect(() => {
+        props.setDetails(details)
+      });
+    
+
     return (
         <>
             {props.pop === 'open' ?  
             <Container>
-                <FilterForm />
+                <FilterForm setDetails={setDetails} />
             </Container>
             : ""}
         </>

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import {FiSearch} from 'react-icons/fi';
 import {BiFilter} from 'react-icons/bi';
 import './Filter.css'
@@ -7,6 +7,16 @@ import PopupFilter from './PopupFilter';
 const Filter = (props) => {
     const [popup, setPopup] = useState('close')
     const [searchData, setsearchData] = useState('');
+
+    const [details, setDetails] = useState({
+        subscription: "",
+        burner: "",
+        cardHolder: ""
+    })
+
+    useEffect(() => {
+        props.details(details)
+    });
 
     const open = () => {
         switch(popup) {
@@ -23,10 +33,6 @@ const Filter = (props) => {
 
     const handleSearch = (e) => {
         setsearchData(e.target.value)
-        finalcall()
-    }
-
-    const finalcall = () => {
         props.searchData(searchData)
     }
 
@@ -45,7 +51,7 @@ const Filter = (props) => {
                 <button onClick={() => open()}>
                     <BiFilter /> Filter
                 </button>
-                <PopupFilter pop={popup}/>
+                <PopupFilter pop={popup} setDetails={setDetails} />
             </div>
         </div>
     );

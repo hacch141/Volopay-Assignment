@@ -28,7 +28,6 @@ const All = () => {
         return () => window.removeEventListener("scroll",handleScroll)
     },[])
 
-    
     const getsearchData = (data) => {
         console.log(data)
         if(data!=='') {
@@ -38,10 +37,21 @@ const All = () => {
         }
     }
 
+    const getDetails = (data) => {
+        if(data.cardHolder !== '' || data.subscription !== '' || data.burner !== '') {
+            const filteredData = UserData.filter(user => 
+                user.userName.toLowerCase().includes(data.cardHolder.toLowerCase()) &&
+                (user.card_type.toLowerCase().includes(data.subscription.toLowerCase()) ||
+                user.card_type.toLowerCase().includes(data.burner.toLowerCase()) )
+            )
+            setdataSource(filteredData)
+        }
+    }
+
     return (
         <>
-            <Filter searchData={getsearchData}/>
-            <CardsList dataSource={dataSource}/>
+            <Filter searchData={getsearchData} details={getDetails}/>
+            <CardsList dataSource={dataSource} />
         </>
     );
 }
